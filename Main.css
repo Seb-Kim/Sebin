@@ -1,0 +1,105 @@
+html {
+    font-family: 'Noto Serif KR', 'Time New Roman';
+
+    background-image: url(../MyHome/pictures/background/fabrice-villard-Du41jIaI5Ww-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+footer,
+.fixed {
+    margin: 0;
+    padding: 0;
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+    font-family: 'Gabriola Regular';
+}
+
+header {
+    text-align: center;
+    font-size: x-large;
+    margin: 0;
+    line-height: 50px;
+
+}
+
+nav {
+    background-color: white;
+    text-align: center;
+}
+
+nav ul,
+nav li {
+    display: flex;
+}
+
+nav ul {
+    background-color: rgb(59, 59, 59);
+    padding: 10px 0 10px 0;
+}
+
+nav li {
+    font-size: 25px;
+    width: 10rem;
+    height: 3rem;
+    line-height: 3rem;
+    margin-left: 30px;
+
+}
+
+nav a {
+    text-decoration: wavy;
+    color: rgb(163, 163, 163);
+    width: 10rem;
+    text-align: center;
+
+}
+
+nav a:hover {
+    color: aliceblue;
+    background-color: black;
+    display: block;
+
+    transition-duration: 1.0s;
+
+}
+
+
+
+footer {
+    bottom: 0;
+    text-align: center;
+    font-size: large;
+    border-top: 1px solid #5c5c5c;
+    background-color: #373737;
+    letter-spacing: 2px;
+}
+
+footer ul {
+    list-style-type: none;
+    color: whitesmoke;
+}
+
+footer a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+main {
+    position: relative;
+    top: 200px;
+    height: 100vh;
+    display: block;
+    z-index: 3;
+
+}
